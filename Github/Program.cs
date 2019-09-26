@@ -4,10 +4,13 @@ namespace Github
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Max(params int[] numbers)
         {
-            Console.WriteLine("Hello World!");
-            
+
+            {
+                return numbers.Max();
+            }
+
         }
     }
 }
